@@ -711,3 +711,15 @@ footer{
   }
   .reveal{opacity:1;transform:none}
 }
+
+/* ============================================================
+   GLOBAL ZOOM — domyślna skala 133% na desktopie
+   Odwzorowuje ręczny zoom przeglądarki 133% (Ctrl + +).
+   Na ekranach <=1024px (tablet/mobile) skala 100% —
+   te widoki są już zoptymalizowane pod mały ekran.
+   ============================================================ */
+@media (min-width:1025px){
+  body{
+    zoom:1.33;
+  }
+}
