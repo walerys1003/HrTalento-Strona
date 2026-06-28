@@ -27,6 +27,20 @@ export const renderer = jsxRenderer(({ children }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+        {/* Preload LCP image (founder portrait, WebP) for instant paint */}
+        <link
+          rel="preload"
+          as="image"
+          href="/static/assets/tomasz-kotlinski.webp"
+          type="image/webp"
+          fetchpriority="high"
+        />
+        {/* Non-blocking font load: preload stylesheet, apply on load */}
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700;800;900&family=Geist+Mono:wght@400;500;600&family=Inter+Tight:wght@300;400;500;600;700;800&display=swap"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700;800;900&family=Geist+Mono:wght@400;500;600&family=Inter+Tight:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"

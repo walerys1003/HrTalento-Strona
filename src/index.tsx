@@ -285,7 +285,7 @@ const BODY = /* html */ `
               <div class="url-bar">medtalento.pl <b>· production preview</b></div>
               <div class="frame-meta">v0.8 · alpha</div>
             </div>
-            <div class="shot full"><img src="/static/assets/medtalento.jpg" alt="Zrzut ekranu portalu MedTalento.pl — panel rekrutera z dopasowaniami AI i pipeline kandydatów medycznych" loading="lazy"></div>
+            <div class="shot full"><picture><source srcset="/static/assets/medtalento.webp" type="image/webp"><img src="/static/assets/medtalento.jpg" alt="Zrzut ekranu portalu MedTalento.pl — panel rekrutera z dopasowaniami AI i pipeline kandydatów medycznych" width="1024" height="496" loading="lazy" decoding="async"></picture></div>
             <div class="overlay">
               <span>● LIVE PREVIEW · medtalento.pl</span>
               <span>AI MATCHING — ENABLED</span>
@@ -323,7 +323,7 @@ const BODY = /* html */ `
               <div class="url-bar">tsltalento.pl <b>· production preview</b></div>
               <div class="frame-meta">v0.7 · alpha</div>
             </div>
-            <div class="shot"><img src="/static/assets/tsltalento.jpg" alt="Zrzut ekranu portalu TSLTalento.pl — mobilny widok ofert pracy dla kierowców z dopasowaniem geolokalizacyjnym" loading="lazy"></div>
+            <div class="shot"><picture><source srcset="/static/assets/tsltalento.webp" type="image/webp"><img src="/static/assets/tsltalento.jpg" alt="Zrzut ekranu portalu TSLTalento.pl — mobilny widok ofert pracy dla kierowców z dopasowaniem geolokalizacyjnym" width="1024" height="496" loading="lazy" decoding="async"></picture></div>
             <div class="overlay">
               <span>● 4 287 OFERT · 1 247 FIRM</span>
               <span>QUICK APPLY · 1 CLICK</span>
@@ -447,7 +447,7 @@ const BODY = /* html */ `
               <div class="url-bar">devtalento.pl <b>· recruiter cockpit</b></div>
               <div class="frame-meta">v0.9 · alpha</div>
             </div>
-            <div class="shot"><img src="/static/assets/devtalento.jpg" alt="Zrzut ekranu portalu DevTalento.pl — recruiter cockpit z mapą umiejętności GitHub i wynikiem dopasowania AI" loading="lazy"></div>
+            <div class="shot"><picture><source srcset="/static/assets/devtalento.webp" type="image/webp"><img src="/static/assets/devtalento.jpg" alt="Zrzut ekranu portalu DevTalento.pl — recruiter cockpit z mapą umiejętności GitHub i wynikiem dopasowania AI" width="1024" height="496" loading="lazy" decoding="async"></picture></div>
             <div class="overlay">
               <span>● TALENT OPERATING SYSTEM · dla zespołów IT</span>
               <span>AI MATCH 96% — connected</span>
@@ -485,7 +485,7 @@ const BODY = /* html */ `
               <div class="url-bar">horecatalento.pl <b>· production preview</b></div>
               <div class="frame-meta">v0.6 · alpha</div>
             </div>
-            <div class="shot"><img src="/static/assets/horecatalento.jpg" alt="Zrzut ekranu portalu HoReCaTalento.pl — oferty pracy w gastronomii i hotelarstwie z asystentem AI Concierge" loading="lazy"></div>
+            <div class="shot"><picture><source srcset="/static/assets/horecatalento.webp" type="image/webp"><img src="/static/assets/horecatalento.jpg" alt="Zrzut ekranu portalu HoReCaTalento.pl — oferty pracy w gastronomii i hotelarstwie z asystentem AI Concierge" width="1024" height="683" loading="lazy" decoding="async"></picture></div>
             <div class="overlay">
               <span>● PORTAL DLA BRANŻY HORECA</span>
               <span>AI MATCH 98% — connected</span>
@@ -621,7 +621,7 @@ const BODY = /* html */ `
     <div class="founder-grid">
 
       <div class="founder-photo">
-        <img src="/static/assets/tomasz-kotlinski.jpg" alt="Tomasz Kotliński — Founder i CEO HR Talento Group" fetchpriority="high">
+        <picture><source srcset="/static/assets/tomasz-kotlinski.webp" type="image/webp"><img src="/static/assets/tomasz-kotlinski.jpg" alt="Tomasz Kotliński — Founder i CEO HR Talento Group" width="1080" height="1080" fetchpriority="high" decoding="async"></picture>
         <div class="tag-top">CEO · FOUNDER</div>
         <div class="overlay">
           <span>● TOMASZ KOTLIŃSKI</span>
