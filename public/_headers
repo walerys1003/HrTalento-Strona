@@ -1,19 +1,13 @@
-# Cache statycznych zasobów — błyskawiczne ładowanie przy powtórnych wizytach
-
-# Obrazy: cache 1 rok, immutable (treść stała)
-/static/assets/*
-  Cache-Control: public, max-age=31536000, immutable
-
-# CSS: cache 1 dzień (może się zmieniać przy aktualizacjach)
-/static/style.css
-  Cache-Control: public, max-age=86400
-
-# Pozostałe pliki statyczne
-/static/*
-  Cache-Control: public, max-age=86400
-
 # Nagłówki bezpieczeństwa dla całej witryny
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
+
+# Obrazy (WebP/JPEG): cache 1 rok, immutable — błyskawiczne powtórne wizyty
+/static/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS: cache 1 dzień
+/static/style.css
+  Cache-Control: public, max-age=86400
