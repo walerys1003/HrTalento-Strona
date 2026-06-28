@@ -285,7 +285,7 @@ const BODY = /* html */ `
               <div class="url-bar">medtalento.pl <b>· production preview</b></div>
               <div class="frame-meta">v0.8 · alpha</div>
             </div>
-            <div class="shot"><img src="/static/assets/medtalento.jpg" alt="Zrzut ekranu portalu MedTalento.pl — panel rekrutera z dopasowaniami AI i pipeline kandydatów medycznych" loading="lazy"></div>
+            <div class="shot full"><img src="/static/assets/medtalento.jpg" alt="Zrzut ekranu portalu MedTalento.pl — panel rekrutera z dopasowaniami AI i pipeline kandydatów medycznych" loading="lazy"></div>
             <div class="overlay">
               <span>● LIVE PREVIEW · medtalento.pl</span>
               <span>AI MATCHING — ENABLED</span>
